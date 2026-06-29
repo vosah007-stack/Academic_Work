@@ -1,0 +1,40 @@
+length 1, # of strings 100:
+class ULLMap: 0.00 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+Java's Built-in HashMap: 0.00 sec
+length 1, # of strings 1000:
+class ULLMap: 0.01 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+Java's Built-in HashMap: 0.00 sec
+length 1, # of strings 5000:
+class ULLMap: 0.11 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+Java's Built-in HashMap: 0.00 sec
+length 10, # of strings 100:
+class ULLMap: 0.00 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+Java's Built-in HashMap: 0.00 sec
+length 10, # of strings 1000:
+class ULLMap: 0.01 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+Java's Built-in HashMap: 0.00 sec
+length 10, # of strings 1000:
+class ULLMap: 0.11 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+Java's Built-in HashMap: 0.00 sec
+length 100, # of strings 1000:
+class ULLMap: 0.01 sec
+class BSTMap: 0.01 sec
+Java's Built-in TreeMap: 0.00 sec
+Java's Built-in HashMap: 0.00 sec
+length 100, # of strings 5000:
+class ULLMap: 0.14 sec
+class BSTMap: 0.01 sec
+Java's Built-in TreeMap: 0.01 sec
+Java's Built-in HashMap: 0.01 sec

@@ -1,0 +1,43 @@
+InsertRandomSpeedTest:
+
+L = 10
+ULLMap, 10 = 0.00: MyHashMap, 10 = 0.00: HashMap, 10 = 0.00
+
+ULLMap, 100 = 0.00: MyHashMap, 100 = 0.00: HashMap, 100 = 0.00
+
+ULLMap, 1000 = 0.01: MyHashMap, 1000 = 0.00: HashMap, 1000 = 0.00
+
+ULLMap, 10000 = 0.42: MyHashMap, 10000 = 0.01: HashMap, 10000 = 0.00
+
+L = 100
+ULLMap, 10 = 0.00: MyHashMap, 10 = 0.00: HashMap, 10 = 0.00
+
+ULLMap, 100 = 0.00: MyHashMap, 100 = 0.00: HashMap, 100 = 0.00
+
+ULLMap, 1000 = 0.01: MyHashMap, 1000 = 0.00: HashMap, 1000 = 0.00
+
+ULLMap, 10000 = 1.26: MyHashMap, 10000 = 0.03: HashMap, 10000 = 0.02
+
+InsertInOrderSpeedTest:
+
+L = 10
+ULLMap, 10 = 0.00: MyHashMap, 10 = 0.00: HashMap, 10 = 0.00
+
+ULLMap, 100 = 0.00: MyHashMap, 100 = 0.00: HashMap, 100 = 0.00
+
+ULLMap, 1000 = 0.01: MyHashMap, 1000 = 0.00: HashMap, 1000 = 0.00
+
+ULLMap, 10000 = 0.78: MyHashMap, 10000 = 0.01: HashMap, 10000 = 0.00
+
+L = 100
+ULLMap, 10 = 0.00: MyHashMap, 10 = 0.00: HashMap, 10 = 0.00
+
+ULLMap, 100 = 0.00: MyHashMap, 100 = 0.00: HashMap, 100 = 0.00
+
+ULLMap, 1000 = 0.01: MyHashMap, 1000 = 0.00: HashMap, 1000 = 0.00
+
+ULLMap, 10000 = 1.10: MyHashMap, 10000 = 0.02: HashMap, 10000 = 0.02
+
+From observing these maps, the ULLMap is shown to be considerably slower in comparison to MyHashMap and
+HashMap when dealing with a large number of items. It is also clear that HashMap is also a little bit better
+than MyHashMap as more items are added to the maps.
